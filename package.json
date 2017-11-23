@@ -1,5 +1,22 @@
 {
-  "name": "functional-css-object-fit",
+  "name": "css-object-fit",
   "version": "0.0.1",
-  "private": true
+  "description": "CSS utilities for object-fit and object-position properties",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambaldwin/css-object-fit.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "object-fit",
+    "object-position"
+  ],
+  "author": "sambaldwin",
+  "license": "MIT",
+  "style": "index.css",
+  "bugs": {
+    "url": "https://github.com/sambaldwin/css-object-fit/issues"
+  },
+  "homepage": "https://github.com/sambaldwin/css-object-fit#readme"
 }
