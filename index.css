@@ -1,12 +1,16 @@
-[class*='object-fit-'] {
-  height: 100%;
-  width: 100%;
+@supports (object-position: center) {
+
+  [class*='object-fit-'] {
+    height: 100%;
+    width: 100%;
+  }
+
+  .object-fit-fill {       object-fit: fill }
+  .object-fit-contain {    object-fit: contain }
+  .object-fit-cover {      object-fit: cover }
+  .object-fit-none {       object-fit: none }
+  .object-fit-scale-down { object-fit: scale-down }
+
+  .object-position-center { object-position: center }
+
 }
-
-.object-fit-fill { object-fit: fill }
-.object-fit-contain { object-fit: contain }
-.object-fit-cover { object-fit: cover }
-.object-fit-none { object-fit: none }
-.object-fit-scale-down { object-fit: scale-down }
-
-.object-position-center { object-position: center }
